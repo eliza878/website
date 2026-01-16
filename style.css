@@ -1,0 +1,140 @@
+bbody {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #ffe4ec, #fff6dc);
+  margin: 0;
+  padding: 30px;
+  color: #5a3d2b;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #8b5e3c;
+  margin-top: 30px;
+}
+
+/* FORM CARD */
+form {
+  background: #ffffff;
+  width: 100%;
+  max-width: 450px;     
+  margin: 40px auto;    
+  padding: 30px;        
+  border-radius: 25px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+label {
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #f2c6b4;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+button {
+  background: #ffb3c6;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #5a3d2b;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff8fab;
+}
+
+/* SEARCH INPUT */
+#searchId,
+#searchName {
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #f2c6b4;
+  margin-right: 5px;
+   margin-left: 5px;
+}
+
+/* TABLE CARD */
+table {
+  width: 100%;
+  min-width: 900px;    
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+
+
+th {
+  background: #ffcad4;
+  padding: 12px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background: #fff6dc;
+}
+
+/* DELETE BUTTON */
+td button {
+  background: #ff6b6b;
+  color: white;
+  border-radius: 15px;
+  padding: 6px 10px;
+}
+
+td button:hover {
+  background: #e63946;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+
+  background-image: url("icecream.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  margin: 0;
+  padding: 30px;
+  color: #5a3d2b;
+  .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.records-container {
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 20px;
+}
+.records-container {
+  width: 100%;
+  padding: 20px 40px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.
